@@ -27,6 +27,13 @@ module.exports = [
         "clobbers": [
             "device"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
+        "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+        "clobbers": [
+            "window.plugins.launchmyapp"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -35,7 +42,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.2",
     "phonegap-plugin-push": "1.8.0",
     "cordova-plugin-dialogs": "1.2.1",
-    "cordova-plugin-device": "1.1.2"
+    "cordova-plugin-device": "1.1.2",
+    "cordova-plugin-customurlscheme": "4.2.0"
 };
 // BOTTOM OF METADATA
 });
